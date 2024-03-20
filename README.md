@@ -2,7 +2,7 @@
 
 
 ## Description
-This repository contains example code to run simulation studies like the ones in [Zimmermann et al. (2024)](accepted).
+This repository contains example code to run simulation studies like the ones in [Zimmermann et al. (2024)](http://dx.doi.org/10.1002/cpt.3211).
 Due to confidentiality and privacy concerns, the data or code from the real case studies presented in the same paper cannot be shared publicly.
 
 
@@ -26,11 +26,11 @@ devtools::install_github("Novartis/knockofftools")
 ## Usage
 This repository is intended to be used in a high performance computing environment as it uses [`clustermq`](https://cran.r-project.org/web/packages/clustermq/index.html) to run simulations in parallel. 
 
-The folder `simulation_studies` contains one subfolder for each simulation-based Figure in [Zimmermann et al. (2024)](accepted). To run the simulations and produce summary plots, run the R-Script(s) within the respective subfolder. This will also generate an .RDS file with the results in the `output` folder. Note that the working directory is intended to be the folder of this repository.
+The folder `simulation_studies` contains one subfolder for each simulation-based Figure in [Zimmermann et al. (2024)](http://dx.doi.org/10.1002/cpt.3211). To run the simulations and produce summary plots, run the R-Script(s) within the respective subfolder. This will also generate an .RDS file with the results in the `output` folder. Note that the working directory is intended to be the folder of this repository.
 
 
 ## Authors and references
-This repository accompanies the following publication: [Zimmermann et al. (2024)](accepted).
+This repository accompanies the following publication: [Zimmermann et al. (2024)](http://dx.doi.org/10.1002/cpt.3211).
 The R implementation of the sequential knockoff algorithm was introduced in [Kormaksson et al. (2021)](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8955)
 
 The following authors contributed to this repository:
